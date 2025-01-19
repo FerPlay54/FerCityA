@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сохранение контента</title>
+    <link rel="stylesheet" href="style/styletwo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/styleknopka.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="save" style="font-family: URW Chancery L, cursive;" >Сохранение данных</h1>
+    
+        <textarea id="textInput" placeholder="Введите текст"></textarea>
+    
+        <input type="file" id="imageInput" accept="image/*">
+        <div>
+            <button id="saveButton" >Сохранить</button>
+        
+        </div>
+        <div id="savedItemsContainer" class="saved-items-container">
+        </div>
+        <button id="backButton" class="back-button" onclick="location.href='Doc2.html'">Назад</button>
+<style>
+#textInput {
+    color: rgb(255, 255, 255); /* Измените на нужный цвет */
+  }
+</style>
+<h1 class="info" style="font-family: URW Chancery L, cursive;" >Сохраненные</h1>
+
+<script src="js/script1.js"></script>
+</body>
+</html>

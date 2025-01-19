@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат</title>
+    <link rel="stylesheet" href="style/styleschat.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div id="chatMessages" class="chat-messages">
+        </div>
+    <div class="message-input-area">
+         <input type="file" id="fileInput" class="file-input" accept="image/*, .pdf, .doc, .docx">
+        <textarea id="messageInput" class="message-input" placeholder="Введите сообщение"></textarea>
+        <button id="sendButton" class="send-button">Отправить</button>
+    </div>
+</div>
+<button id="backButton" class="back-button" onclick="location.href='Register.html'">Назад</button>
+<script src="js/scriptchat.js"></script>
+</body>
+</html>
