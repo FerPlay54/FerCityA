@@ -1,0 +1,217 @@
+.new {
+   
+}
+
+.новости {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    z-index:10
+}
+.новости {
+    color: #FFF;
+}
+
+#rectangle { 
+    width: 330px;
+    height: 70px;
+    background: #3b3147; 
+position: absolute;
+left: 330px;
+top: 40px;
+z-index:9
+}
+
+.glass span {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    text-align: center;
+    color: #141212b9;
+    width: 65%;
+    font-size: 36px;
+    line-height: 40px;    
+    padding: 400px 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.479), 0 16px 28px rgba(0, 0, 0, 0.493);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.637);   
+    text-transform: uppercase;
+    font-family: 'Roboto', Tahoma, sans-serif;
+    letter-spacing: 5px;
+    z-index: 1;
+    overflow: hidden;
+}
+.glass span:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    height: 200%;
+    width: 200%;
+    background-image: linear-gradient(rgba(83, 20, 70, 0.712), rgba(0, 0, 0, 0.700)), url("16.jpg");
+    
+    filter: blur(18px);
+    z-index: -1;
+}
+
+.text {
+    position: absolute;
+    top: 150px;
+    left: 75px;
+color: #fff;   
+} 
+
+
+body{
+    margin: 0;
+    background: url(img/10.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  }
+
+.applications {
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.applications {
+    position: absolute;
+    top: 345px;
+}
+
+.Банк {
+    padding: 20px 88px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.Банк:hover{
+    background-color: #8d197e;
+}
+
+.Reports {
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.Reports {
+    position: absolute;
+    top: 440px;
+}
+
+.Натариус:hover{
+    background-color: #8d197e;
+}
+
+.Натариус {
+    position: absolute;
+    padding: 20px 63px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.wrapper {
+    
+    width: 50%;
+    height: 500px;
+    left: 10px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 230px;
+}
+
+
+.Договор {
+    line-height: 0.09;
+    padding: 10px 33px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.Договор:hover{
+    background-color: #8d197e;
+}
+
+
+.back-button {
+    width: 150px; 
+    height: 50px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 8px;
+        background-color: #3b3147;
+        color: white;
+        font-size: 20px;
+  font-weight: 900;
+}
+.back-button:hover{
+      background-color: #8d197e;
+}
+.ikon {
+    position: absolute;
+    left: 10px;
+    top: 990px;
+    z-index: 10;
+}
+
+.Email {
+    position: absolute;
+    z-index: 11;
+    top: 972px;
+    left: 60px;
+}
+.Email {
+    font-size: 25px;
+    color: #FFF;
+}
+
+
+.ikon4 {
+    position: absolute;
+    top: 980px;
+    z-index: 10;
+}
+.ikon4 {
+    position: absolute;
+    left: 400px;
+}
+
+
+
+.Discord {
+    position: absolute;
+    z-index: 11;
+    top: 972px;
+    left: 460px;
+}
+.Discord {
+    font-size: 25px;
+    color: #FFF;
+}
+
+#ikon1 { 
+    width: 1903px;
+    height: 65px;
+    background: #3b3147; 
+position: absolute;
+left: 0px;
+top: 975px;
+z-index:9
+}

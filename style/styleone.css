@@ -1,0 +1,51 @@
+.applications {
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.applications {
+    position: absolute;
+    top: 345px;
+}
+
+.Заявки {
+    padding: 20px 88px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.proofs {
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.proofs {
+    position: absolute;
+    top: 535px;
+}
+
+.Доказательства {
+    padding: 20px 37px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+.container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

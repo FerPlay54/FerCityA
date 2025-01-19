@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.new {
+   
+}
+
+.новости {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    z-index:10
+}
+.новости {
+    color: #FFF;
+}
+
+#rectangle { 
+    width: 330px;
+    height: 70px;
+    background: #3b3147; 
+position: absolute;
+left: 330px;
+top: 40px;
+z-index:9
+}
+
+#ikon1 { 
+    width: 1903px;
+    height: 65px;
+    background: #3b3147; 
+position: absolute;
+left: 0px;
+top: 975px;
+z-index:9
+}
+
+.ikonchat {
+    position: absolute;
+    top: 870px;
+    left: 1800px;
+}
+
+
+.glass span {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    text-align: center;
+    color: #141212b9;
+    width: 65%;
+    font-size: 36px;
+    line-height: 40px;    
+    padding: 400px 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.479), 0 16px 28px rgba(0, 0, 0, 0.493);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.637);   
+    text-transform: uppercase;
+    font-family: 'Roboto', Tahoma, sans-serif;
+    letter-spacing: 5px;
+    z-index: 1;
+    overflow: hidden;
+}
+.glass span:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    height: 200%;
+    width: 200%;
+    background-image: linear-gradient(rgba(83, 20, 70, 0.712), rgba(0, 0, 0, 0.700)), url("16.jpg");
+    
+    filter: blur(18px);
+    z-index: -1;
+}
+
+
+
+
+body{
+  margin: 0;
+  background: url(img/15.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+.wrapper {
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 250px;
+}
+
+.dogovor {
+    padding: 20px 75px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.text {
+    position: absolute;
+    top: 160px;
+    left: 75px;
+color: #fff;   
+} 
+
+
+.Reports {
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    left: 10px;
+}
+
+.Reports {
+    position: absolute;
+    top: 440px;
+}
+
+.Отчеты {
+    position: absolute;
+    padding: 20px 88px;
+    color: #fff;
+    background-color: #3b3147;
+     border-radius: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.ikon {
+    position: absolute;
+    left: 10px;
+    top: 990px;
+    z-index: 10;
+}
+
+.Email {
+    position: absolute;
+    z-index: 11;
+    top: 972px;
+    left: 60px;
+}
+.Email {
+    font-size: 25px;
+    color: #FFF;
+}
+
+
+.ikon4 {
+    position: absolute;
+    top: 980px;
+    z-index: 10;
+}
+.ikon4 {
+    position: absolute;
+    left: 400px;
+}
+
+
+
+.Discord {
+    position: absolute;
+    z-index: 11;
+    top: 972px;
+    left: 460px;
+}
+.Discord {
+    font-size: 25px;
+    color: #FFF;
+}
+
